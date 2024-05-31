@@ -18,6 +18,8 @@ import styles from './root.scss';
 
 const Root: React.FC = () => {
   const { t } = useTranslation();
+  // eslint-disable-next-line no-console
+  console.log('hello');
 
   return (
     <div className={styles.container}>
